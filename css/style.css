@@ -1,0 +1,1055 @@
+
+/* COLORES Y TIPOGRAFÍA */
+
+:root {
+    --soft-blue: hsl(231, 69%, 60%);
+    --soft-red: hsl(0, 94%, 66%);
+    --grayish-blue: hsl(229, 8%, 60%);
+    --very-dark-blue: hsl(229, 31%, 21%);
+}
+
+/* Configuración general */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--very-dark-blue);
+}
+
+/* Contenedor principal */
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 90px;
+}
+
+/* Contenedor de las cajas del menú */
+.Contenedor-flexible {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Cada caja */
+.caja {
+    padding: 10px;
+    background-color: white;
+    color: #252b46;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+/* Cambiar de color al pasar el mouse */
+.caja:hover {
+    background-color: white;
+    color: #ad3d3d;
+    border: 1px solid #d53c3c;
+}
+
+
+/* Sección principal */
+.Presentacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 90px;
+    gap: 40px;}
+
+
+/* Contenedor del texto */
+.Contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Título */
+.Contenedor-texto h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: hsl(229, 31%, 21%);
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+
+/* Párrafo */
+.Contenedor-texto p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(229, 8%, 60%);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de botones */
+.Contenedor-botones {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+/* Botón Chrome */
+.btn-chrome {
+    padding: 12px 18px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 3px solid #000000;
+   
+}
+
+
+/* Botón Firefox */
+.btn-firefox {
+    padding: 12px 18px;
+    background-color: white;
+    color: #000000;
+    border: 3px solid #000000;
+   
+}
+
+
+
+/* Cambiar de color al pasar el mouse */
+.btn-firefox:hover {
+    background-color: white;
+    color: #002aff;
+    border: 1px solid #2d00f7;
+}
+
+
+/* Cambiar de color al pasar el mouse */
+.btn-chrome:hover {
+    background-color: white;
+    color: #002aff;
+    border: 1px solid #2d00f7;
+}
+
+/* Imagen */
+.Presentacion img {
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+/* Segunda sección */
+.segunda-parte {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+
+/* Contenedor del texto */
+.Contenedor-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+}
+
+
+/* Título Features */
+.Contenedor-dos h2 {
+    color: #252b46;
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+
+/* Párrafo */
+.Contenedor-dos p {
+    color: gray;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+
+
+
+.tabs {
+    display: flex;
+    flex-direction: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px 90px;
+}
+
+
+/* Contenedor de las cajas del menú */
+.Contenedor-tabs {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+/* TERCERA PARTE: IMAGEN Y TEXTO */
+
+
+/* CONTENEDOR DE LAS PESTAÑAS */
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    padding: 20px 90px;
+}
+
+/* Las tres pestañas */
+
+.Contenedor-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cada pestaña */
+
+.tabs {
+    flex: 1;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+}
+
+
+/* Cambiar de color al pasar el mouse */
+.Contenedor-tabs :hover {
+    background-color: white;
+    color: #ff2c2c;
+    border: 1px solid #c80303;
+}
+
+.tercera-parte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 40px 90px;
+}
+
+/* Imagen */
+
+.tercera-parte img {
+    width: 45%;
+    height: auto;
+}
+
+/* Contenedor del texto */
+
+.Contenedor-tres {
+    width: 40%;
+}
+
+/* Título */
+
+.Contenedor-tres h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Párrafo */
+
+.Contenedor-tres p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Botón */
+
+.btn-info {
+    background-color: var(--soft-blue);
+    color: white;
+    border: 1px solid var(--soft-blue);
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* SECCIÓN DE EXTENSIONES */
+.extensiones {
+    padding: 80px 90px;
+}
+
+/* Título y descripción */
+.Contenedor-extensiones {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto 50px;
+}
+
+.Contenedor-extensiones h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Contenedor-extensiones p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Contenedor de las tres tarjetas */
+.Contein-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* Cada tarjeta */
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    padding: 30px 20px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+
+/* Cambiar de color al pasar el mouse */
+.cards button:hover {
+    background-color: white;
+    color: #002aff;
+    border: 1px solid #2d00f7;
+}
+
+/* Efecto escalonado */
+.cards:nth-child(2) {
+    margin-top: 40px;
+}
+
+.cards:nth-child(3) {
+    margin-top: 80px;
+}
+
+/* Imágenes */
+.cards img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 25px;
+}
+
+.cards h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.cards p {
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+/* Botones */
+.cards button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--soft-blue);
+    color: white;
+    border: 2px solid var(--soft-blue);
+    border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* SECCION DE PREGUNTAS */
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+/* TITULO Y DESCRIPCION */
+.Contenedor-preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
+    margin-bottom: 40px;
+}
+
+.Contenedor-preguntas h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--very-dark-blue);
+    margin-bottom: 15px;
+}
+
+.Contenedor-preguntas p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #9194a1;
+}
+
+/* CONTENEDOR DEL ACORDEON */
+.Contenedor-acordeon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 550px;
+}
+
+/* CADA PREGUNTA */
+.pregunta {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ddd;
+}
+
+/* TITULO DE LA PREGUNTA */
+.pregunta summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    cursor: pointer;
+    list-style: none;
+    color: var(--very-dark-blue);
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* QUITAR FLECHA ORIGINAL */
+.pregunta summary::-webkit-details-marker {
+    display: none;
+}
+
+/* FLECHA PERSONALIZADA */
+.pregunta summary::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-right: 2px solid var(--soft-blue);
+    border-bottom: 2px solid var(--soft-blue);
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    margin-right: 18px;
+}
+
+/* FLECHA CUANDO SE ABRE */
+.pregunta[open] summary::after {
+    transform: rotate(225deg);
+    border-color: #fa5757;
+}
+
+/* COLOR AL PASAR EL MOUSE */
+.pregunta summary:hover {
+    color: #fa5757;
+}
+
+/* RESPUESTA */
+.respuesta {
+    padding: 0 0 18px;
+}
+
+.respuesta p {
+    color: #777b8e;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* LINEA INFERIOR */
+.pregunta:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+/* CONTENEDOR DEL BOTON */
+.Contenedor-boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* BOTON MORE INFO */
+.btn-info {
+    background-color: var(--soft-blue);
+    color: white;
+    border: 1px solid var(--soft-blue);
+    padding: 12px 22px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* EFECTO HOVER DEL BOTON */
+.btn-info:hover {
+    background-color: white;
+    color: var(--soft-blue);
+    border: 1px solid var(--soft-blue);
+}
+
+
+/* Cambiar de color al pasar el mouse */
+.Contenedor-tres button:hover {
+    background-color: white;
+    color: #002aff;
+    border: 1px solid #2d00f7;
+}
+
+
+
+/* SECCION DE SUSCRIPCION */
+.suscripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--soft-blue);
+    padding: 60px 20px;
+}
+
+/* CONTENEDOR DEL TEXTO */
+.Contenedor-suscripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    max-width: 100%;
+}
+
+/* TEXTO SUPERIOR */
+.Contenedor-suscripcion p {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+}
+
+/* TITULO */
+.Contenedor-suscripcion h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+/* FORMULARIO */
+.Formulario-email {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+/* CONTENEDOR DEL INPUT */
+.campo-email {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+}
+
+/* CAMPO DE EMAIL */
+.campo-email input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 13px;
+    padding-right: 40px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    outline: none;
+}
+
+
+/* MENSAJE DE ERROR */
+.mensaje-error {
+    display: none;
+    background-color: #fa5757;
+    color: white;
+    font-size: 11px;
+    font-style: italic;
+    text-align: left;
+    padding: 6px 10px;
+    border-radius: 0 0 4px 4px;
+}
+
+/* ESTADO DE ERROR */
+.campo-email.error input {
+    border: 2px solid #fa5757;
+}
+
+.campo-email.error .icono-error {
+    display: block;
+}
+
+.campo-email.error .mensaje-error {
+    display: block;
+}
+
+/* BOTON */
+.Formulario-email button {
+    background-color: #fa5757;
+    color: white;
+    border: 1px solid #fa5757;
+    border-radius: 4px;
+    padding: 13px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* HOVER DEL BOTON */
+.Formulario-email button:hover {
+    background-color: white;
+    color: #fa5757;
+    border: 1px solid #fa5757;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #252b46;
+    padding: 25px 0;
+    width: 100%;
+}
+
+
+.Contenedor-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* LOGO */
+.Contenedor-footer > img {
+    width: 110px;
+    filter: brightness(0) invert(1);
+}
+
+/* MENU */
+.Enlaces-footer {
+    display: flex;
+    gap: 30px;
+    margin-left: 70px;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* REDES */
+.Redes-footer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+}
+
+
+
+.Enlaces-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+/* REDES SOCIALES */
+.Redes-footer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.Redes-footer img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+
+/* ADAPTACIÓN PARA CELULARES */
+
+@media (max-width: 600px) {
+
+    /* CONFIGURACIÓN GENERAL */
+    body {
+          overflow-x: hidden;
+    }
+
+    /* PRESENTACIÓN PRINCIPAL */
+    .Presentacion {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .Presentacion img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .Contenedor-texto {
+        width: 100%;
+        align-items: center;
+    }
+
+    .Contenedor-texto h1 {
+        font-size: 28px;
+    }
+
+    .Contenedor-texto p {
+        font-size: 15px;
+    }
+
+    .Contenedor-botones {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn-chrome,
+    .btn-firefox {
+        padding: 12px 10px;
+        font-size: 12px;
+    }
+
+    /* SEGUNDA SECCIÓN */
+    .segunda-parte {
+        padding: 30px 20px;
+    }
+
+    .Contenedor-dos {
+        width: 100%;
+    }
+
+    .Contenedor-dos h2 {
+        font-size: 25px;
+    }
+
+    /* PESTAÑAS */
+    .Contenedor-tabs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Contenedor-tabs .tabs {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px 10px;
+        text-align: center;
+    }
+
+    /* TERCERA SECCIÓN */
+    .tercera-parte {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+
+    .tercera-parte img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .Contenedor-tres {
+        width: 100%;
+    }
+
+   
+/* EXTENSIONES */
+.extensiones {
+    padding: 50px 20px;
+}
+
+.Contenedor-extensiones {
+    margin-bottom: 40px;
+}
+
+.Contein-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cards {
+    width: 100%;
+    max-width: 280px;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+.cards:nth-child(2),
+.cards:nth-child(3) {
+    margin-top: 0;
+}
+
+
+    /* PREGUNTAS */
+    .preguntas {
+        padding: 50px 20px;
+    }
+
+    .Contenedor-preguntas {
+        width: 100%;
+    }
+
+    .Contenedor-preguntas h2 {
+        font-size: 25px;
+    }
+
+    .pregunta summary {
+        font-size: 14px;
+    }
+
+    /* SUSCRIPCIÓN */
+    .suscripcion {
+        padding: 50px 20px;
+    }
+
+    .Contenedor-suscripcion {
+        width: 100%;
+    }
+
+    .Contenedor-suscripcion h2 {
+        font-size: 24px;
+    }
+
+    .Formulario-email {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .campo-email {
+        width: 100%;
+    }
+
+    .Formulario-email button {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .Contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .Enlaces-footer {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .Redes-footer {
+        margin-left: 0;
+    }
+}
+
+/* ADAPTACIÓN PARA TABLETS */
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    .Presentacion {
+        padding: 40px;
+        gap: 25px;
+    }
+
+    .Presentacion img {
+        width: 45%;
+    }
+
+    .Contenedor-texto h1 {
+        font-size: 30px;
+    }
+
+    .tercera-parte {
+        padding: 40px;
+        gap: 35px;
+    }
+
+    .extensiones {
+        padding: 60px 30px;
+    }
+
+    .container-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .cards {
+        width: 250px;
+        box-sizing: border-box;
+    }
+
+    .cards:nth-child(2),
+    .cards:nth-child(3) {
+        margin-top: 0;
+    }
+
+    .Contenedor-footer {
+        padding: 0 20px;
+    }
+
+    .Enlaces-footer {
+        margin-left: 30px;
+        gap: 15px;
+    }
+}
+
+/* ADAPTACIÓN PARA COMPUTADORAS */
+
+@media (min-width: 901px) {
+
+    .Presentacion {
+        flex-direction: row;
+    }
+
+    .Presentacion img {
+        width: 50%;
+    }
+
+    .Contenedor-tabs {
+        flex-direction: row;
+    }
+
+    .tercera-parte {
+        flex-direction: row;
+    }
+
+    .container-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cards:nth-child(2) {
+        margin-top: 40px;
+    }
+
+    .cards:nth-child(3) {
+        margin-top: 80px;
+    }
+}
+
+/* ENCABEZADO */
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+    position: relative;
+}
+
+.encabezado > img {
+    width: 150px;
+}
+
+/* MENÚ */
+.Contenedor-flexible {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.caja {
+    text-decoration: none;
+    font-size: 13px;
+    color: var(--very-dark-blue);
+}
+
+
+
+/* CELULARES */
+@media (max-width: 600px) {
+
+    .encabezado {
+        padding: 25px 20px;
+    }
+
+    .encabezado > img {
+        width: 150px;
+    }
+
+    .hamburguesa {
+        display: flex;
+        z-index: 2;
+    }
+
+    .Contenedor-flexible {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 20px;
+        background-color: var(--very-dark-blue);
+        z-index: 10;
+    }
+
+    .Contenedor-flexible.menu-abierto {
+        display: flex;
+    }
+
+    .caja {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px;
+        text-align: center;
+        color: white;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .caja:hover {
+        color: var(--soft-red);
+    }
+}
+
